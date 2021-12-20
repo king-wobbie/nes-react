@@ -7,7 +7,7 @@ export interface ContainerProps {
   dark?: boolean;
   rounded?: boolean;
   centered?: boolean;
-  className?: boolean;
+  className?: string;
 }
 
 const Container: React.SFC<ContainerProps> = ({ children, className, dark, rounded, centered, title, ...other }) => (
